@@ -9,13 +9,17 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
   "peerDependencies": {
     "koishi": "4.18.11"
   }
