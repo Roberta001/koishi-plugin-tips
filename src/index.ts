@@ -59,6 +59,7 @@ export function apply(ctx: Context, config: Config) {
   })
 
   ctx.command('tips', '获取一条“你知道吗？”提示')
+    .example('tips')
     .alias('你知道吗')
     .action(async ({ session }) => {
       if (tipsList.length === 0) {
